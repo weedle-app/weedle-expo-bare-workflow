@@ -1,10 +1,9 @@
 {
   "expo": {
     "name": "weedle-mobile-dapp-training",
+    "scheme": "wmw",
     "slug": "weedle-mobile-dapp-training",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }

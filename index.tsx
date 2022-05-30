@@ -1,3 +1,7 @@
+import 'react-native-get-random-values';
+import '@ethersproject/shims';
+import 'node-libs-react-native/globals.js';
+
 import { registerRootComponent } from 'expo';
 
 import App from './App';
