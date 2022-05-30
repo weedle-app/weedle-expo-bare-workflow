@@ -27,9 +27,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        const provider = new ethers.providers.StaticJsonRpcProvider(
-          'https://eb50-50-66-132-160.ngrok.io/'
-        );
+        const provider = new ethers.providers.JsonRpcProvider();
         console.log(await provider.ready);
         const block = await provider.getBlockNumber();
         const res = await provider.getBlock(block);
